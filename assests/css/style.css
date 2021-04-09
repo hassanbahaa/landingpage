@@ -100,9 +100,10 @@
     margin-top: 10px;
     list-style: none;
     cursor: pointer;
-    width: 300px;
     height: 60px;
-    display: inline-block;
+    width: 400px;
+    align-items: center;
+    display: inline-flex;
     justify-content: space-between;
 }
 
@@ -110,10 +111,13 @@
     display: inline-block;
 }
 
+#pricing ul li a{
+    float: right;
+}
+
 #pricing ul li .btn{
     border-radius: 20px;
     margin: 0 20px;
-    float:right
 }
 
 #pricing ul li:hover{

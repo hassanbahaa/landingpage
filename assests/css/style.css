@@ -100,6 +100,14 @@
     margin-top: 10px;
     list-style: none;
     cursor: pointer;
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+#pricing ul li h5{
+    display: inline-block;
 }
 
 #pricing ul li .btn{
